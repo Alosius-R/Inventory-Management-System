@@ -1,0 +1,41 @@
+{
+  "orders": [
+    {
+      "id": "o1",
+      "userId": "u2",
+      "items": [
+        {
+          "productId": "p1",
+          "quantity": 1,
+          "price": 249.99
+        },
+        {
+          "productId": "p4",
+          "quantity": 1,
+          "price": 129.99
+        }
+      ],
+      "status": "delivered",
+      "totalAmount": 379.98,
+      "shippingAddress": "123 Main St, Anytown, CA 12345",
+      "createdAt": "2025-02-01T15:30:00Z",
+      "updatedAt": "2025-02-04T09:15:00Z"
+    },
+    {
+      "id": "o2",
+      "userId": "u2",
+      "items": [
+        {
+          "productId": "p2",
+          "quantity": 1,
+          "price": 199.95
+        }
+      ],
+      "status": "processing",
+      "totalAmount": 199.95,
+      "shippingAddress": "123 Main St, Anytown, CA 12345",
+      "createdAt": "2025-02-10T11:45:00Z",
+      "updatedAt": "2025-02-10T14:20:00Z"
+    }
+  ]
+}
